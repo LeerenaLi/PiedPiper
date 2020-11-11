@@ -159,22 +159,44 @@ ul.nav li {
     background-color: #EEEEEE;
     background-size: cover;
     padding-top: 58px;
+    padding-bottom: 50px;
   }
 
+  .band {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+    
+  }
+
+  .foto {
+    flex-basis: 33%;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+
+
+
+  /*
   .band {
     position: relative;
     width: 100%;
     display: block;
-    margin: 50px 0 0 0;                    /*50px auto;*/
+    margin: 50px 0 0 0;                    
     padding: 0 0 30px 0;
   }
+
+
   .foto1, .foto2, .foto3 {
     text-align: center;
     width: calc(33%);
 	display: inline-block;
   }
 
-
+*/
   .sign {
     font-family: Roboto, sans-serif;
     font-style: italic;
@@ -183,12 +205,12 @@ ul.nav li {
     line-height: 1.3125rem;
     color: #000000;
   }
-
+/*
   .chief {
     position: relative;
     width: 100%;
     display: block;
-    margin: 60px 0 0 0;                    /*50px auto;*/
+    margin: 60px 0 0 0;                    
     padding: 0 0 110px 0;
   }
 
@@ -196,7 +218,7 @@ ul.nav li {
     text-align: center;
     width: calc(33%);
 	display: inline-block;
-  }
+  }*/
 
   .footer {
     background-color: #333333;
