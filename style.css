@@ -178,25 +178,6 @@ ul.nav li {
     margin-bottom: 30px;
   }
 
-
-
-  /*
-  .band {
-    position: relative;
-    width: 100%;
-    display: block;
-    margin: 50px 0 0 0;                    
-    padding: 0 0 30px 0;
-  }
-
-
-  .foto1, .foto2, .foto3 {
-    text-align: center;
-    width: calc(33%);
-	display: inline-block;
-  }
-
-*/
   .sign {
     font-family: Roboto, sans-serif;
     font-style: italic;
@@ -205,20 +186,6 @@ ul.nav li {
     line-height: 1.3125rem;
     color: #000000;
   }
-/*
-  .chief {
-    position: relative;
-    width: 100%;
-    display: block;
-    margin: 60px 0 0 0;                    
-    padding: 0 0 110px 0;
-  }
-
-  .foto4, .foto5, .foto6 {
-    text-align: center;
-    width: calc(33%);
-	display: inline-block;
-  }*/
 
   .footer {
     background-color: #333333;
@@ -237,4 +204,337 @@ ul.nav li {
     color: #fff; 
   }
 
+  @media (max-width: 768px) {
+    .logo img {
+      width: 100%;
+    }
+
+    .header {
+      height: 70px;
+    }
+
+    .nav a {
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+
+    .nav {
+      margin-top: 26px;
+    }
+
+   h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+   }
+
+   h2 {
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+   }
+
+   h3 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+   }
+
+   p {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+   }
+
+   .jumbotron {
+    padding-top: 160px;
+    padding-bottom: 100px;
+   }
+
+   .problem {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    }
+
+  .hero__message {
+    font-size: 2rem;
+    line-height: 3rem;
+    }
+
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+
+  figure img {
+    width: 100%;
+  }  
+
+  .intro  {
+    padding-bottom: 60px;
+  }
+
+  .band>.foto img {
+    width: 90%;
+  }
+
+  .sign {
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+
+  .theme {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .band {
+    margin-top: 10px;
+  }
+
+  .footer {
+    padding-top: 18px;
+    padding-bottom: 24px;
+  }
+  }
+
+  @media (max-width: 560px) {
+    .logo img {
+      width: 90%;
+    }
+
+    .header {
+      height: 64px;
+    }
+
+    .container {
+      padding: 0 30px;
+  }
+
+    .nav a {
+      font-size: 0.9rem;
+    }
+
+    .nav {
+      margin-top: 23px;
+    }
+
+   h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+   }
+
+   h2 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+   }
+
+   h3 {
+    font-size: 0.8rem;
+    line-height: 1rem;
+   }
+
+   p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+   }
+
+   .jumbotron {
+    padding-top: 140px;
+    padding-bottom: 90px;
+   }
+
+   .problem {
+    padding-top: 36px;
+    padding-bottom: 30px;
+    }
+
+  .hero__message {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    }
+
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+
+  figure img {
+    width: 90%;
+  }  
+
+  figure {
+    margin: 28px 40px 0 0;
+  }
+
+  .intro  {
+    padding-bottom: 40px;
+  }
+
+  .band>.foto img {
+    width: 80%;
+  }
+
+  .sign {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+  }
+
+  .theme {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .band {
+    margin-top: 10px;
+  }
+
+  .foto {
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    padding-top: 16px;
+    padding-bottom: 20px;
+  }
+
+  .footer p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  }
+
+  @media (max-width: 420px) {
+    .logo img {
+      width: 80%;
+    }
+
+    .header {
+      height: 60px;
+    }
+
+    .container {
+      padding: 0 20px;
+  }
+
+    .nav a {
+      font-size: 0.6rem;
+    }
+
+    .nav {
+      margin-top: 18px;
+      padding: 0;
+    }
+
+   h1 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+   }
+
+   h2 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+   }
+
+   h3 {
+    font-size: 0.8rem;
+    line-height: 1rem;
+   }
+
+   p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-top: 0.8rem;
+   }
+
+   .jumbotron {
+    padding-top: 110px;
+    padding-bottom: 60px;
+   }
+
+   .problem {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    }
+
+    .hero {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+  .hero__message {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    }
+
+  figure img {
+    width: 70%;
+  }  
+
+  figure {
+    margin: 20px 10px 0 0;
+  }
+
+  .intro  {
+    padding-bottom: 30px;
+  }
+
+  .band>.foto img {
+    width: 80%;
+  }
+
+  .sign {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+  }
+
+  .theme {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .band {
+    margin-top: 10px;
+  }
+
+  .foto {
+    flex-basis: 49%;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    padding-top: 16px;
+    padding-bottom: 20px;
+  }
+
+  .footer p{
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+  }
+
+  @media (max-width: 320px) {
+    p {
+      font-size: 0.8rem;
+    }
+
+    .logo img {
+      width: 70%;
+    }
+
+    .header {
+      height: 60px;
+    }
+
+    .container {
+      padding: 0 16px;
+  }
+
+    .nav a {
+      font-size: 0.45rem;
+    }
+
+    .nav {
+      margin-top: 18px;
+      padding: 0;
+    }
+  }
 
